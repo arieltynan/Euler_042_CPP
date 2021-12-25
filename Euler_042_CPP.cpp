@@ -26,7 +26,6 @@ vector<int> genTriNums(int n)
 
 int main()
 {
-    
     // generate triangle numbers
     int n = 100;
     vector<int> tri = genTriNums(n);
