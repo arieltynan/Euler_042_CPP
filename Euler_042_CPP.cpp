@@ -19,7 +19,7 @@ vector<int> genTriNums(int n)
     {
         triNum = 0.5 * i * (i + 1);
         vect.push_back(triNum);
-        cout << triNum << " ";
+        // cout << triNum << " ";
     }
     return vect;
 }
@@ -77,7 +77,7 @@ int main()
             exists = true;
         if (exists == true)
         {
-            cout << vectList[i] << " " << wordVal << endl;
+            // cout << vectList[i] << " " << wordVal << endl; // prints all triangle words and wordvals
             numTriWords++;
         }
         wordVal = 0;
